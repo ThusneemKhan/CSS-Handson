@@ -1,0 +1,57 @@
+.heading
+{
+ color: red;
+}
+.first
+{
+ color: red;
+ font-size: 25px;
+ font-style: italic;
+ 
+}
+.lists
+{
+  color: brown;
+  font-size: 18px;
+}
+.sp1
+{
+  text-decoration: line-through;
+}
+.sp2
+{
+    background-color: yellow;
+    
+}
+.sp3
+{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.hi
+{
+    font-style: italic;
+    color: red;
+}
+
+.ul
+{
+ color: brown;
+ letter-spacing: 3px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bg
+{
+    color: brown;
+    font-size: large;
+}
+
+.a
+{
+  font-style: italic;
+  font-size: 20pxs;
+  color:red;
+  background-color: yellow;
+}
