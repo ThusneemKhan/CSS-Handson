@@ -1,0 +1,292 @@
+body
+{
+   background-color: gray;
+
+}
+
+
+
+.box1
+{
+   width: 320px;
+   padding: 10px;
+   height: 120px;
+   border: 6px solid red;
+   margin: 0;
+   top:10px;
+   left:75vh;
+   position: relative;
+   background-color: white;
+   border-radius: 30px;
+   box-shadow: 5px 5px 2px red;
+}
+
+.box1txt
+{
+   font-size: 25px;
+   color: blueviolet;
+   text-align: center;
+   text-shadow: 2px 2px;
+   font-style: bold;
+   
+
+}
+.flex-container
+{
+   background-color:grey;
+   width: 1505px;
+   height:510px;
+   border: 10px solid green;
+   display: flex;
+}
+
+.flexitem
+{
+  display: flex;
+  width: 320px;
+  padding: 10px;
+  height: 120px;
+  border: 6px solid red;
+  margin: 0;
+  top:10px;
+  left:75vh;
+  position: relative;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.flex-item-box1
+{
+   border: 5px solid red;
+   border-radius: 10px;
+   height: 180px;
+   width: 300px;
+   background-color: azure;
+   font-size: 28px;
+   text-align: center;
+   padding-top: 25px;
+   font-weight: bolder;
+   text-shadow: 2px 2px 8px black;
+   box-shadow: 5px 5px 2px purple;
+}
+
+.flex-item-box2
+{
+    display: flex;
+   border: 5px solid red;
+   border-radius: 10px;
+   height: 201px;
+   width: 300px;
+   background-color: azure;
+   position: absolute;
+   right:10vh;
+   justify-content: space-between;
+   box-shadow: 5px 5px 2px purple;
+  
+}
+
+.img
+{
+  height:100%;
+  width: 100%;
+  object-fit: fill;
+
+}
+
+.centerbox
+{
+   height: 60px;
+    width: 500px;
+    display: flex;
+    position: fixed;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border: 5px solid red;
+    border-radius: 12px;
+    box-shadow: 5px 5px 2px purple;
+    background-color: yellowgreen;
+    left: 33%;
+    top: 50vh;
+    z-index: 2;
+}
+
+.ctxt
+{
+  font-size: 20px;
+  color: red;
+  font-style: italic;
+
+
+
+
+}
+
+
+
+.flex-item-box3
+{
+   display: flex;
+   border: 5px solid red;
+   border-radius: 10px;
+   height: 201px;
+   width: 300px;
+   background-color: azure;
+   position: absolute;
+   right:10vh;
+   top:65vh;
+   font-weight: bolder;
+   text-shadow: 2px 2px 8px black;
+   font-size: 19px;
+   box-shadow: 5px 5px 2px purple;
+   
+
+}
+.rate
+{
+   font-size: 16px;
+   text-align: center;
+   top:50px;
+   right:60px;
+   position: relative;
+}
+
+
+
+
+
+
+
+.flex-item-box4
+{
+   border: 5px solid red;
+   border-radius: 10px;
+   height: 180px;
+   width: 300px;
+   background-color: azure;
+   font-size: 28px;
+   text-align: center;
+   padding-top: 25px;
+   font-weight: bolder;
+   text-shadow: 2px 2px 8px black;
+   top:36vh;
+   position: relative;
+   right:41vh;
+   display: flex;
+   box-shadow: 5px 5px 2px purple;
+}
+
+.lowerbox
+{
+ 
+   position: relative;
+   height: 650px;
+   top: 20px;
+   left: 360px;
+   width: 700px;
+   display: flex;
+   background-color: green;
+   border: 7px solid purple;
+   flex-flow: row wrap;
+   justify-content: space-between;
+}
+
+h1{
+      display: block;
+      font-size: 2em;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+ 
+}
+
+.middle
+{
+   margin-left: 170px;
+
+}
+
+.fruits
+{
+   height: 220px;
+   width: 350px;
+   background-color: yellow;
+   border: 4px solid green;
+   position:absolute;
+   top:100px;
+}
+
+.ftxt
+{
+   text-align: center;
+   font-weight: bold;
+   font-style: italic;
+}
+
+.pftxt
+{
+  position: relative;
+  left: 20px;
+  text-align: justify;
+  line-height: 1.6;
+
+}
+
+.vegs
+{
+   height: 220px;
+   width: 350px;
+   background-color: yellow;
+   border: 4px solid green;
+   position:absolute;
+   top:100px;
+   right:4px;
+
+
+}
+.vegtxt
+{
+   text-align: center;
+   font-weight: bold;
+   font-style: italic;
+
+}
+
+.vtxt
+{
+   position: relative;
+   left: 20px;
+   text-align: justify;
+   line-height: 1.6;
+
+
+}
+
+.otheritems
+{
+   height: 250px;
+   width: 690px;
+   background-color: yellow;
+   border: 4px solid green;
+   position:absolute;
+   top:350px;
+}
+
+.otxt
+{
+   text-align: center;
+   font-weight: bold;
+   font-style: italic;
+
+}
+
+.oitxt
+{
+   position: relative;
+   left: 20px;
+   text-align: justify;
+   line-height: 1.6;
+
+
+}
