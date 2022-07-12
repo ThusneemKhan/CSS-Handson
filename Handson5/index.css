@@ -1,0 +1,249 @@
+body
+{
+    background-image: url("./bg.jpg");
+    background-repeat: repeat;
+}
+
+.container
+{
+   width:100%;
+   height:50px;
+   border: 2px solid transparent;
+   position: relative;
+   top:20px;
+   text-decoration: none;
+   
+}
+
+.l1
+{
+    color:white;
+    position:absolute;
+    right:20em;
+    top:20px;
+    cursor: pointer;
+    
+}
+
+.l2
+{
+    color:white;
+    position:absolute;
+    right:15em;
+    top:20px;
+    cursor: pointer;
+}
+
+.l3
+{
+    color:white;
+    position:absolute;
+    right:10em;
+    top:20px;
+    cursor: pointer;
+}
+
+img
+{
+   position: relative;
+   left: 50px;
+
+}
+
+.content
+{
+  color: white;
+  font-size: 50px;
+  text-align: justify;
+  top:17vh;
+  left:100px;
+  position: absolute;
+
+}
+.c1
+{
+    font-size: 16px;
+    color: white;
+    top:27vh;
+    position:absolute;
+}
+
+button
+{
+    border-radius: 25px;
+    color:black;
+    border: 5px solid white;
+    position: relative;
+    top:55px;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px;
+    width: 190px;
+    background-color: white;
+}
+
+.grid-container
+{
+ 
+   display: grid;
+   background-color: transparent;
+   grid-template-columns: 2;
+   grid-gap: 10px;
+}
+
+
+
+
+.grid-item1
+{
+  background-image: url("./WesternDesert.png");
+  background-size: cover;
+  height: 230px;
+  width: 230px;
+  border-radius: 10px;
+  transform: translate(20px, 10px);
+  cursor:pointer;
+  left:50vw;
+  top:20vh;
+  position: absolute;
+  color:white;
+  padding: 15px;
+
+
+
+}
+
+
+
+.grid-item2
+{
+   border: 0px solid transparent;
+   background-image: url("./PyramidogGIza.png");
+   background-size: cover;
+   width:230px;
+   height: 230px;
+   position: absolute;
+   top:20vh;
+   left:70vw;
+   border-radius: 10px;
+   transform: translate(20px, 10px);
+   cursor:pointer;
+   color:white;
+   padding: 15px;
+
+
+}
+
+.grid-item3
+{
+   border: 0px solid transparent;
+   background-image: url("./Al_Bagawat.png");
+   background-size: cover;
+   width:230px;
+   height: 230px;
+   position: absolute;
+   top:60vh;
+   left:70vw;
+   border-radius: 10px;
+   transform: translate(20px, 10px);
+   cursor: pointer;
+   color:white;
+   padding: 15px;
+
+}
+
+.grid-item4
+{
+  background-image: url("./Kalahari.png");
+  background-size: cover;
+  height: 230px;
+  width: 230px;
+  border-radius: 10px;
+  transform: translate(20px, 10px);
+  cursor:pointer;
+  left:50vw;
+  top:60vh;
+  position: absolute;
+  cursor: pointer;
+  color:white;
+  padding: 15px;
+
+
+
+}
+
+.items:hover
+{
+    transform: translate(20px, 30px);
+}
+   
+
+@media (max-width: 870px) {
+
+    .grid-item1
+    {
+        width: 70%;
+        display: block;
+        position: absolute;
+        top:80vh;
+        left:auto;
+        margin-left: 40px;
+        background-repeat:round;
+        color:white;
+        padding: 15px;
+       
+    }
+    
+}
+
+@media (max-width: 870px) {
+
+    .grid-item2
+    {
+        width: 70%;
+        position: absolute;
+        top:120vh;
+        left:auto;
+        background-repeat:round;
+        margin-left: 40px;
+        color:white;
+        padding: 15px;
+        
+    }
+}
+
+@media (max-width: 870px) {
+
+    .grid-item3
+    {
+        width: 70%;
+        margin-left: 40px;
+        position: absolute;
+        top:165vh;
+        left:auto;
+        background-repeat:round;
+        color:white;
+        padding: 15px;
+        
+        
+    }
+    
+}
+
+@media (max-width: 870px) {
+
+    .grid-item4
+    {
+        width: 70%;
+        position: absolute;
+        top:210vh;
+        left:auto;
+        background-size:auto;
+        margin-left: 40px;
+        margin-bottom: 100px;
+        background-repeat:round;
+        color:white;
+        padding: 15px;
+    }
+    
+}
